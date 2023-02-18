@@ -1,0 +1,21 @@
+/* Write your code here. */
+.images {
+  height: 100%;
+  width: 100%;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+.image1 {
+  height: 100%;
+  width: 100%;
+}
+.list-a {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  border-width: 0px;
+  outline: none;
+  margin-right: 7px;
+}
