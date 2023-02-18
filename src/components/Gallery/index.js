@@ -96,6 +96,7 @@ class Gallery extends Component {
       <div className="main container">
         {this.filteredImage().map(eachPicture => (
           <img
+            key={eachPicture.id}
             src={eachPicture.imageUrl}
             alt={eachPicture.imageAltText}
             className="image"
